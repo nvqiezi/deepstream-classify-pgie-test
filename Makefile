@@ -29,10 +29,9 @@ APP:= deepstream-classify-pgie-test
 
 TARGET_DEVICE = $(shell gcc -dumpmachine | cut -f1 -d -)
 
-NVDS_VERSION:=6.0
 
-LIB_INSTALL_DIR?=/opt/nvidia/deepstream/deepstream-$(NVDS_VERSION)/lib/
-APP_INSTALL_DIR?=/opt/nvidia/deepstream/deepstream-$(NVDS_VERSION)/bin/
+LIB_INSTALL_DIR?=/opt/nvidia/deepstream/deepstream/lib/
+APP_INSTALL_DIR?=/opt/nvidia/deepstream/deepstream/bin/
 
 ifeq ($(TARGET_DEVICE),aarch64)
   CFLAGS:= -DPLATFORM_TEGRA

@@ -89,12 +89,11 @@ new_sample (GstElement * sink, gpointer * data)
         obj_meta = (NvDsObjectMeta *) (l_obj->data);
         if (obj_meta->class_id == PGIE_CLASS_ID_VEHICLE) {
           vehicle_count++;
-          num_rects++;
         }
         if (obj_meta->class_id == PGIE_CLASS_ID_PERSON) {
           person_count++;
-          num_rects++;
         }
+        num_rects++;
       }
     }
 

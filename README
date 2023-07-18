@@ -25,7 +25,8 @@ To install these packages, execute the following command:
    libgstrtspserver-1.0-dev libx11-dev
 
 Compilation Steps:
-
+  clone code to the path /opt/nvidia/deepstream/deepstream/sources/apps/sample_apps
+  
   $ Set CUDA_VER in the MakeFile as per platform.
       For Jetson, CUDA_VER=10.2
       For x86, CUDA_VER=11.4
