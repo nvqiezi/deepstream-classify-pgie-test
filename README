@@ -36,4 +36,4 @@ To run:
   $ ./deepstream-classify-pgie-test <Raw video stream (example: YUV)> <width of stream>
       <height of stream> <expected FPS of stream> <format of stream (example: I420, NV12, RGBA)>
 
-  sample: ./deepstream-classify-pgie-test redcar-1280-720.yuv 1280 720 1 I420
+  sample: ./deepstream-classify-pgie-test redcar-720p-I420.yuv 1280 720 1 I420
